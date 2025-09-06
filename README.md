@@ -7,14 +7,7 @@ The program dynamically creates columns (ILCE1, ILCE2, ...) based on the city wi
 
 - **ZIL_TABLO**: MANDT, IL_KODU, IL_ISIM  
 - **ZIL_ILCE_TABLO**: MANDT, IL_KODU, ILCE_KODU  
-- **ZILCE_TABLO**: MANDT, ILCE_KODU, ILCE_ISIM  
-
-## How it Works
-
-1. Count the number of districts per city.  
-2. Find the maximum number of districts and generate that many columns.  
-3. Fill each city row with its district names.  
-4. Display the result in an ALV grid.  
+- **ZILCE_TABLO**: MANDT, ILCE_KODU, ILCE_ISIM   
 
 ## Usage
 
